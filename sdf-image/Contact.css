@@ -27,22 +27,14 @@
   margin: 30px auto 60px;
 }
 
-@media (max-width: 1199px) {
-  .u-section-1 .u-text-2 {
-    margin-left: 321px;
-  }
-}
-
 @media (max-width: 991px) {
   .u-section-1 .u-text-2 {
-    margin-left: 246px;
     width: 720px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-text-2 {
-    margin-left: 185px;
     width: 540px;
   }
 
@@ -53,7 +45,6 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-text-2 {
-    margin-left: 116px;
     width: 340px;
   }
 

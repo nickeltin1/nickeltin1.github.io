@@ -1,9 +1,9 @@
-const cacheName = "DefaultCompany-SDFWebGL-0.1";
+const cacheName = "nickeltn-SDF Image Demo-1.1.0";
 const contentToCache = [
-    "Build/Build.loader.js",
-    "Build/Build.framework.js",
-    "Build/Build.data",
-    "Build/Build.wasm",
+    "Build/Builds.loader.js",
+    "Build/Builds.framework.js.gz",
+    "Build/Builds.data.gz",
+    "Build/Builds.wasm.gz",
     "TemplateData/style.css"
 
 ];

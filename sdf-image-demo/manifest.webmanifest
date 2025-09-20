@@ -1,11 +1,11 @@
 {
-    "name": "SDFWebGL",
-    "short_name": "SDFWebGL",
+    "name": "SDF Image Demo",
+    "short_name": "SDF Image Demo",
     "start_url": "index.html",
     "display": "fullscreen",
-    "background_color": "#231F20",
+    "background_color": "#FFFFFF",
     "theme_color": "#000",
-    "description": "SDFImage Asset Demo",
+    "description": "SDF Image Asset Demo",
     "icons": [{
       "src": "TemplateData/icons/unity-logo-dark.png",
       "sizes": "144x144",

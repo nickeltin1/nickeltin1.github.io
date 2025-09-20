@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | SDFWebGL</title>
+    <title>Unity Web Player | SDF Image Demo</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
@@ -57,15 +57,16 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build.loader.js";
+      var loaderUrl = buildUrl + "/Builds.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build.data",
-        frameworkUrl: buildUrl + "/Build.framework.js",
-        codeUrl: buildUrl + "/Build.wasm",
+        arguments: [],
+        dataUrl: buildUrl + "/Builds.data.gz",
+        frameworkUrl: buildUrl + "/Builds.framework.js.gz",
+        codeUrl: buildUrl + "/Builds.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "SDFWebGL",
-        productVersion: "0.1",
+        companyName: "nickeltn",
+        productName: "SDF Image Demo",
+        productVersion: "1.1.0",
         showBanner: unityShowBanner,
       };
 
@@ -84,6 +85,8 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
+
+      canvas.style.background = "url('" + buildUrl + "/Builds.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");

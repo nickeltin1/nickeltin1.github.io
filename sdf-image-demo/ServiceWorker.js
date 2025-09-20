@@ -1,9 +1,9 @@
 const cacheName = "nickeltn-SDF Image Demo-1.1.0";
 const contentToCache = [
     "Build/Builds.loader.js",
-    "Build/Builds.framework.js.gz",
-    "Build/Builds.data.gz",
-    "Build/Builds.wasm.gz",
+    "Build/Builds.framework.js",
+    "Build/Builds.data",
+    "Build/Builds.wasm",
     "TemplateData/style.css"
 
 ];

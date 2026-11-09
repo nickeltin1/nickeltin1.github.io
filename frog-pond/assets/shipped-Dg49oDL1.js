@@ -1,4 +1,4 @@
-import{d as mt,a as dt}from"./index-MkQbr1cs.js";const gt=`id: level-001
+import{d as mt,a as dt}from"./index-BsX1_akL.js";const gt=`id: level-001
 created: 2026-11-07T15:13:57.209Z
 size: 4
 mode: patterns
